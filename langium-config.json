@@ -1,0 +1,12 @@
+{
+    "projectName": "LangTest",
+    "languages": [{
+        "id": "lang-test",
+        "grammar": "src/language/lang-test.langium",
+        "fileExtensions": [".lt"],
+        "textMate": {
+            "out": "syntaxes/lang-test.tmLanguage.json"
+        }
+    }],
+    "out": "src/language/generated"
+}
